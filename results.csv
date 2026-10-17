@@ -1,0 +1,6 @@
+Model,Accuracy,Macro F1,Negative recall,ROC-AUC
+Always predict positive (baseline),0.844,,0.0,0.5
+BoW + MultinomialNB,0.921,0.844,0.704,0.936
+TF-IDF + MultinomialNB,0.858,0.549,0.096,0.931
+BoW + ComplementNB,0.91,0.841,0.81,0.936
+"BoW + MultinomialNB (alpha=0.1, CV-tuned)",0.92,0.849,0.751,0.94
